@@ -29,7 +29,7 @@ title: PowerShell Cheat Sheet
 | Get Computer Name | $env:COMPUTERNAME or hostname |
 | Inline If | $(if ($isPass){'Pass'} else {'Fail'}) |
 | Delay Wait-For Sleep | Start-Sleep -Seconds 5 |
-| -- | -- |
+| IsNullOrEmpty | [string]::IsNullOrEmpty |
 | -- | -- |
 
 
