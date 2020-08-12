@@ -27,6 +27,7 @@ title: PowerShell Cheat Sheet
 | Loop | for($i=1; $i -le 10; $i++) {<br>Write-Host "In loop $i"<br>} |
 | Date Format | [$(Get-Date -Format "yyyy-MM-dd HH:mm:ss")] |
 | Get Computer Name | $env:COMPUTERNAME or hostname |
+| Get User Name | $env:USERNAME ($env:UserDomain\$env:USERNAME) or $env:ComputerName|
 | Inline If | $(if ($isPass){'Pass'} else {'Fail'}) |
 | Delay Wait-For Sleep | Start-Sleep -Seconds 5 |
 | IsNullOrEmpty | [string]::IsNullOrEmpty |
