@@ -17,7 +17,7 @@ title: PowerShell Cheat Sheet
 | . | Get-AzRoleAssignment \| where {$_.ObjectType -EQ "User" -and $_.RoleDefinitionName -notlike "*reader*"} \| FT SignInName, DisplayName, RoleDefinitionName, ObjectType |
 | Search / Find | $index = ($line \|Select-String 'TestCaseRunner Summary').Matches.Index |
 | Search / Find Multiple | For multiple lines loop via array? |
-| String contains/like | if($osName -like '*Windows 10*') |
+| String contains/like | if($osName -like '\*Windows 10\*') |
 | Init List | $allResources = New-Object System.Collections.Generic.List[System.Object] |
 | List Contains/Except | Compare-Object -ReferenceObject @("A","B","D") -DifferenceObject @("C","D") -IncludeEqual |
 | Select | $MembersObjIds = $Members \| select {$_.ObjectId} |
