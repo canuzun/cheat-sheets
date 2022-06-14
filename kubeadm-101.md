@@ -51,3 +51,5 @@ kubectl get pods --all-namespaces
 ###On Worker Nodes###
 sudo kubeadm join IP:6443 --token foo --discovery-token-ca-cert-hash sha256:foo --cri-socket unix:///var/run/cri-dockerd.sock
 ````
+
+[How to install Kubernetes with Kubeadm: A quick and dirty guide](https://www.mirantis.com/blog/how-install-kubernetes-kubeadm/)
