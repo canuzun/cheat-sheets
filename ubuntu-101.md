@@ -7,3 +7,4 @@
 # Common Commands
 -  find / -name "update_mssql.sh"
     - Remember to switch to root to search all.
+- switch back to user : CTRL + D
